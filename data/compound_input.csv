@@ -1,0 +1,31 @@
+compound_id,entry_char,entry_num,top_1000,usage_type,word,num_slots,jp,en,jlpt,word_type
+1,川,1,1,compound,河川,2,かせん,rivers,N1,noun
+2,川,1,1,compound,山川,2,さんせん,mountains and rivers,N5,noun
+3,川,1,1,KUN,川上,2,かわかみ,"upstream, upriver",N5,noun
+4,川,1,1,KUN,川瀬,2,かわせ,"river rapids, shallows of a river",N1,noun
+5,川,1,1,KUN Suffix,小川,2,おがわ,brook (small river),N4,noun
+6,川,1,1,KUN Suffix (Name),江戸川,2,えどがわ,Edo River (Name of River),N5,noun
+7,川,1,1,Special,川原,2,かわら,dry riverbed,N3,noun
+8,小,2,1,compound,小国,2,しょうこく,Small nation,N5,noun
+9,小,2,1,compound,小児,2,しょうに,Young child; infant,N2,noun
+10,小,2,1,compound,小規模,3,しょうきぼ,small-scale,N1,な-adjective
+11,小,2,1,compound,小数,2,しょうすう,Decimal (fraction),N3,noun
+12,小,2,1,compound,大小,2,だいしょう,Sizes (various),N5,noun; の-adjective
+13,小,2,1,compound,縮小する,2,しゅくしょうする,reduce,N1,irregular verb
+14,小,2,1,compound,中小企業,4,ちゅうしょうきぎょう,Small-to-medium-sized businesses,N1,noun
+15,小,2,1,compound,最小,2,さいしょう,The smallest; minimum,N3,noun; の-adjective
+16,小,2,1,compound,小事,2,しょうじ,Trifling (small) matter; trifle,N4,noun
+17,小,2,1,compound,小学校,3,しょうがっこ,elementary school,N5,noun
+18,小,2,1,compound,小学生,3,しょうがくせい,school child/boy/girl,N5,noun
+19,小,2,1,compound,過小評価する,4,かしょうひょうかする,to underestimate; to underrate,N1,irregular verb
+20,小,2,1,independent,小の月,2,しょうのつき,month with 30 days or less,N5,noun
+21,小,2,1,KUN,小さい,1,ちいさい,small,N5,い-adjective
+22,小,2,1,KUN Prefix,小型の,2,こがたの,Small-sized / tiny,N2,の-adjective
+23,小,2,1,KUN Prefix,小物,2,こもの,accessory; gadget,N4,noun
+24,小,2,1,KUN Prefix,小鳥,2,ことり,small bird,N4,noun
+25,小,2,1,KUN Prefix,小麦,2,こむぎ,wheat,N2,noun
+26,小,2,1,KUN Prefix,小屋,2,こや,"Cottage, hut, cabin",N4,noun
+27,小,2,1,KUN Prefix,小雨,2,こあめ,Light rainfall,N5,noun
+28,小,2,1,KUN Prefix,小雪,2,こゆき,Light snowfall,N3,noun
+29,小,2,1,KUN Prefix,小声,2,こごえ,whisper,N3,の-adjective
+30,小,2,1,KUN Prefix,小売店,3,こうりてん,Retail store,N4,noun

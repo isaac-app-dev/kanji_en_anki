@@ -1,0 +1,110 @@
+.card {
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #fff9ef; /* soft off-white paper tone */
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* subtle paper lift */
+    color: #111;  /* Default dark text color for all card content */
+    position: relative;  /* ✅ enables absolute positioning of badge */
+  }
+
+
+  .entry-char {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+  }
+  
+  .word {
+    font-size: 48px;
+    font-weight: bold;
+    color: #111;
+  }
+  
+  .reading, .meaning, .component {
+    font-size: 24px;
+    font-family: inherit;
+    margin: 6px 0;
+  }
+
+  .word-type-label {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+    margin-top: -4px;
+    margin-bottom: 12px;
+  }
+
+  .hint-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* This centers all child elements horizontally */
+    margin-top: 16px;
+  }
+
+  .hint-toggle button {
+    font-size: 16px;
+    padding: 6px 12px;
+    background-color: #f2f2f2;
+    color: #333; /* Ensures text is dark and readable */
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hint-toggle div[id^="hint-"] {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f5f5f5;
+    background-color: #444;  /* dark but not black */
+    padding: 10px 14px;
+    border-radius: 8px;
+    line-height: 1.6;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Courier New", monospace;
+    text-align: center;
+    display: inline-block;
+    max-width: 60%;
+  }
+
+  .top-row {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .top-1000-badge {
+    width: 70px;
+    height: auto;
+  }
+
+  .entry-char-large {
+    font-size: 42px;
+    font-weight: bold;
+    color: #111;
+  }
+
+  .usage-type-centered {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  .jlpt-badge {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+  }

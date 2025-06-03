@@ -1,0 +1,30 @@
+<div class="card">
+
+    <!-- Top-left badge and entry_char -->
+    <div class="top-row">
+      <div class="top-1000-badge">{{top1000_badge}}</div>
+      <div class="entry-char-large">{{entry_char}}</div>
+    </div>
+
+    <!-- Usage type directly above compound word -->
+    <div class="usage-type-centered">{{usage_type}}</div>
+  
+    <!-- Center compound word -->
+    <div class="word">{{word}}</div>
+
+    {{#word_type}}
+    <div class="word-type-label">{{word_type}}</div>
+    {{/word_type}}
+
+    <div class="hint-toggle">
+      <button onclick="document.getElementById('hint-{{compound_id}}').style.display='block'; this.style.display='none';">
+        Show Hint
+      </button>
+      <div id="hint-{{compound_id}}" style="display: none;">
+        {{components}}
+      </div>
+    </div>
+
+    <div class="jlpt-badge">{{jlpt_badge}}</div>
+
+  </div>

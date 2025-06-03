@@ -1,0 +1,32 @@
+<div class="card">
+    <!-- Top-left badge and entry_char -->
+    <div class="top-row">
+      <div class="top-1000-badge">{{top1000_badge}}</div>
+      <div class="entry-char-large">{{entry_char}}</div>
+    </div>
+
+    <!-- Usage type directly above compound word -->
+    <div class="usage-type-centered">{{usage_type}}</div>
+  
+    <!-- Word and meaning section -->
+    <div class="word">{{word}}</div>
+
+    {{#word_type}}
+    <div class="word-type-label">{{word_type}}</div>
+    {{/word_type}}
+  
+    <div class="reading">
+      <strong>Reading:</strong> {{jp}}
+    </div>
+  
+    <div class="meaning">
+      <strong>Meaning:</strong> {{en}}
+    </div>
+  
+    <div class="components">
+      {{components}}
+    </div>
+
+    <div class="jlpt-badge">{{jlpt_badge}}</div>
+
+  </div>
