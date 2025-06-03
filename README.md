@@ -7,7 +7,7 @@ I will be regularly updating this repo with new datasets as I continue my studyi
 
 If you just want the .apkg file to import into anki:
 
-Navigate to the kanji_en_anki/decks folder and download the file. You can import this into your anki user profile.
+   Navigate to the kanji_en_anki/decks folder and download the file. You can import this into your anki user profile.
 
 If you would like to build this project locally, a couple of key points:
 
