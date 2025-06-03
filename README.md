@@ -5,6 +5,10 @@ I built this project to automatically generate Anki decks for studying Kanji. I 
 
 I will be regularly updating this repo with new datasets as I continue my studying and growing my kanji learning list. Feel free to watch/follow this repo for those updates so that you can get the latest set.
 
+If you just want the .apkg file to import into anki:
+
+Navigate to the kanji_en_anki/decks folder and download the file. You can import this into your anki user profile.
+
 If you would like to build this project locally, a couple of key points:
 
 1. This project was built from macOS. There are applescripts used to interact with the Numbers application for handling my CSV data. You can tune this to work for other apps (i.e. Excel on windows), but this project itself is built for macOS.
