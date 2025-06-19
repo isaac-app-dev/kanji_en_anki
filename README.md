@@ -1,22 +1,86 @@
-I built this project to automatically generate Anki decks for studying Kanji. I am making this project available for anyone who would like to either:
+Kanji Anki Deck Generator
 
-    1. download the repo and tune it to their own studying needs
-    2. download the .apkg directly and use in their anki platform to study the cards that I create.
+This project automatically generates Anki decks to support studying Japanese Kanji. It’s designed for learners who want to:
+	•	Customize and generate their own Anki decks based on their study preferences.
+	•	Download prebuilt .apkg decks and start studying immediately in Anki.
 
-I will be regularly updating this repo with new datasets as I continue my studying and growing my kanji learning list. Feel free to watch/follow this repo for those updates so that you can get the latest set.
+📦 Getting Started
 
-If you would like to build this project locally, a couple of key points:
+You can either download the prebuilt decks or build your own deck using the provided scripts.
 
-    1. This project was built from macOS. There are applescripts used to interact with the Numbers application for handling my CSV data. You can tune this to work for other apps (i.e. Excel on windows), but this project itself is built for macOS.
+⸻
 
-    2. Script Dependencies: Python3, genanki library, hashlib library.
+✅ Use Prebuilt Anki Decks
 
-    3. You must run the code from the project root folder due to how the FILEPATH locations are used. Again you can tune this yourself.
+If you just want the ready-made Anki deck:
+	1.	Navigate to the decks/ folder.
+	2.	Download the latest .apkg file.
+	3.	Import it into your Anki profile and start studying.
 
-        3a. Run the following commands, in the following order:
+⸻
 
-            i. python3 scripts/export_numbers.py
+🛠️ Build the Project Locally
 
-            ii. python3 scripts/db_build.py
+This project was developed on macOS and uses AppleScript to interact with Apple Numbers for CSV data export.
 
-            iii. python3 scripts/build_deck.py
+⚠️ You may need to adapt parts of the workflow if you’re using Windows or Linux (e.g., switch from Apple Numbers to Excel).
+
+Dependencies
+	•	Python 3
+	•	genanki
+	•	hashlib (standard Python library)
+
+Install required Python packages:
+
+pip install genanki
+
+Directory Assumptions
+
+Run all scripts from the project root directory, due to hardcoded file paths.
+
+📋 Step-by-Step Build Instructions
+	1.	Export your data from Apple Numbers:
+
+python3 scripts/export_numbers.py
+
+	2.	Build the internal kanji database:
+
+python3 scripts/db_build.py
+
+	3.	Generate the Anki deck:
+
+python3 scripts/build_deck.py
+
+
+⸻
+
+🔄 Updates
+
+I update this repository regularly with new Kanji datasets as I continue studying. Watch or follow the repo to stay up to date with the latest decks.
+
+⸻
+
+📁 Project Structure
+
+kanji-anki-deck-generator/
+├── decks/               # Prebuilt .apkg decks for Anki
+├── scripts/             # Scripts for data export and deck generation
+├── data/                # CSV or intermediate data files
+├── README.md            # Project documentation
+
+
+⸻
+
+🙌 Contributing & Feedback
+
+Feedback and contributions are welcome! Feel free to open issues or submit pull requests.
+
+⸻
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+⸻
+
+Happy studying! 頑張って！📚🇯🇵
